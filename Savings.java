@@ -1,7 +1,7 @@
 public class Savings extends Account {
     // list properties sppecific to the saving account
-    int safetyDepositeBoxID;
-    int safetyDepositeBoxKey;
+    private int safetyDepositeBoxID;
+    private int safetyDepositeBoxKey;
     //double rate; not needed because it is already in the parent class
 
     // constructors to initlaize setting for the savigns properties

@@ -1,8 +1,8 @@
 public class Checking extends Account{
     //list checking account 
 
-    int debitCardNumber;
-    int debitCardPIN;
+    private int debitCardNumber;
+    private int debitCardPIN;
     //double rate; not needed because it is already in the parent class
     
     public Checking(String name,String sSN, double initDeposit){

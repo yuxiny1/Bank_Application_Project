@@ -1,13 +1,13 @@
 public abstract class Account implements IBaseRate {
     // list common properties fo savings and checking accounts
     // constructor to set base properteis and initialize the account
-    String name;
-    String sSN;
-    double balance;
-    String accountNumber;
-    double rate;
+    private String name;
+    private String sSN;
+    private double balance;
+    protected String accountNumber;
+    protected double rate;
     // unic because it is static
-    static int index = 10000;
+    private static int index = 10000;
 
     public Account(String name, String sSN, double initDeposit) {
         // super class
